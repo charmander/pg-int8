@@ -1,6 +1,6 @@
 {
 	"name": "pg-int8",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "64-bit big-endian signed integer-to-string conversion",
 	"bugs": "https://github.com/charmander/pg-int8/issues",
 	"license": "ISC",
