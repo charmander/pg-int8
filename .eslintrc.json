@@ -1,0 +1,12 @@
+{
+	"extends": "@charmander/base",
+	"env": {
+		"node": true
+	},
+	"globals": {
+		"WebAssembly": false
+	},
+	"rules": {
+		"no-implicit-coercion": "off"
+	}
+}
