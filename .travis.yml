@@ -4,7 +4,8 @@ node_js:
   - "4"
   - "6"
   - "8"
-  - "9"
+  - "10"
+  - "11"
 before_script:
   - tmp=$(mktemp --directory)
   - bash -O dotglob -O extglob -c 'mv !(node_modules|test) "$1"/' bash "$tmp"
