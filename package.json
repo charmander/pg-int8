@@ -12,11 +12,10 @@
 		"url": "https://github.com/charmander/pg-int8"
 	},
 	"scripts": {
-		"test": "tap test"
+		"test": "node test"
 	},
 	"devDependencies": {
-		"@charmander/eslint-config-base": "1.0.2",
-		"tap": "10.7.3"
+		"@charmander/eslint-config-base": "1.0.2"
 	},
 	"engines": {
 		"node": ">=0.12"
