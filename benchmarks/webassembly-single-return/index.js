@@ -21,8 +21,9 @@ module.exports = buffer => {
 		return sign + low;
 	}
 
-	const highDecimal = parseHigh(high, low);
-	const lowDecimal = ('' + (1000000000 + parseLow(high, low))).slice(1);
+	const lowDecimalN = parseLow(high, low);
+	const highDecimal = parseHigh(high, low, lowDecimalN);
+	const lowDecimal = ('' + (1000000000 + lowDecimalN)).slice(1);
 
 	return sign + highDecimal + lowDecimal;
 };
